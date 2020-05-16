@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.35" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="1.1.2" />
+      <PackageReference Include="Npgsql" Version="4.1.3.1" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Compile Remove="Accounts\Accounts.cs" />
+      <Compile Remove="Accounts\Transaction.cs" />
+      <Compile Remove="Accounts\AccountsRepository.cs" />
+      <Compile Remove="Accounts\Account.cs" />
+      <Compile Remove="Accounts\AccountRepository.cs" />
+      <Compile Remove="Accounts\Transaction.cs" />
+      <Compile Remove="Accounts\AccountRepository.cs" />
+      <Compile Remove="Accounts\Account.cs" />
+      <Compile Remove="Accounts\Transaction.cs" />
+      <Compile Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.AssemblyInfo.cs" />
+      <Compile Remove="Accounts\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Accounts\obj\Account.csproj.nuget.g.props" />
+      <None Remove="Accounts\obj\Account.csproj.nuget.g.targets" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Account.assets.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Account.csprojAssemblyReference.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Account.csprojAssemblyReference.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.csprojAssemblyReference.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.csprojAssemblyReference.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.AssemblyInfoInputs.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.csproj.CoreCompileInputs.cache" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.dll" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.pdb" />
+      <None Remove="Accounts\bin\Debug\netcoreapp3.1\Accounts.dll" />
+      <None Remove="Accounts\bin\Debug\netcoreapp3.1\Accounts.pdb" />
+      <None Remove="Accounts\obj\Debug\netcoreapp3.1\Accounts.csproj.FileListAbsolute.txt" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Remove="Accounts\obj\Account.csproj.nuget.dgspec.json" />
+      <Content Remove="Accounts\bin\Debug\netcoreapp3.1\Accounts.deps.json" />
+    </ItemGroup>
+</Project>

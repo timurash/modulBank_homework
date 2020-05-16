@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modulBank_hw", "modulBank_hw\modulBank_hw.csproj", "{8BA1AC90-C383-4A80-A934-DF0117ABD4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{A38024E6-9CEC-4B24-BC56-A7959C0CC605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts", "Auth\Accounts\Accounts.csproj", "{57503456-523F-4B2C-8109-A416D9801778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA1AC90-C383-4A80-A934-DF0117ABD4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA1AC90-C383-4A80-A934-DF0117ABD4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA1AC90-C383-4A80-A934-DF0117ABD4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA1AC90-C383-4A80-A934-DF0117ABD4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57503456-523F-4B2C-8109-A416D9801778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57503456-523F-4B2C-8109-A416D9801778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57503456-523F-4B2C-8109-A416D9801778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57503456-523F-4B2C-8109-A416D9801778}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8FF6DC2-5CAE-4C45-8E7B-509B1C764A97} = {A38024E6-9CEC-4B24-BC56-A7959C0CC605}
+		{57503456-523F-4B2C-8109-A416D9801778} = {A38024E6-9CEC-4B24-BC56-A7959C0CC605}
+	EndGlobalSection
+EndGlobal
